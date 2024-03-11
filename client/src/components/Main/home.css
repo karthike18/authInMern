@@ -1,0 +1,98 @@
+/* home.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDAB9; /* PeachPuff */
+    padding: 10px 20px;
+    color: #333; /* Dark gray text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .left-icons, .right-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    margin-left: 10px; /* Add space between icon and input */
+    padding: 5px; /* Adjust input padding */
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    flex-basis: calc(20% - 20px); /* 20% for 5 items per row, 20px margin on each side */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+  }
+  
+  .product p {
+    margin: 5px 0;
+  }
+  
+  .product button {
+    padding: 5px 10px;
+    background-color: #4682b4; /* SteelBlue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #2e8b57; /* SeaGreen */
+  }
+  
+  /* ... (other styles) */
+  
+  .checkmark {
+    color: green; /* You can adjust the color as needed */
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+  
+  .cart-item-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-right: 50px; /* Adjust the margin as needed */
+  }
